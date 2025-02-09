@@ -117,3 +117,22 @@ footer {
   transform: scale(1.02);   /* Subtle zoom on hover */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
 }
+
+.site-title {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: none;  /* No uppercase, feels more natural */
+}
+
+.site-title a {
+  text-decoration: none;
+  color: inherit;  /* Uses the same color as the header */
+}
+
+.site-title a:hover {
+  color: #007acc;  /* Subtle color shift on hover */
+}
