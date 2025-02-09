@@ -1,0 +1,42 @@
+# Site settings
+title: "Jeff Rames' Blog"
+description: >-
+  Technical insights on iOS development, automation, and personal projects.
+  Follow along as I share my experiences building apps and solving tech challenges.
+baseurl: "" # Leave empty since you're hosting at the root domain
+url: "https://jefframes.com"
+
+# Build settings
+theme: minima
+
+# Add this line to include custom CSS
+sass:
+  load_paths:
+    - assets/css
+plugins:
+  - jekyll-feed # For RSS feed support
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown for compatibility with MacDown
+
+# Permalink structure for clean URLs
+permalink: /:title/
+
+# Exclude unnecessary files from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+
+# Include additional files or folders (optional)
+# include:
+#   - assets/css/custom.css
+
+# Future posts
+future: true # Allows you to see posts dated in the future when testing locally
