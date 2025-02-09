@@ -71,7 +71,8 @@ Looking at a download spike that day and the two following, I got probably **50*
 <a href="../assets/images/2025-02-10-trip-tunes-experience/productHunt_chart.png" target="_blank">
   <img src="../assets/images/2025-02-10-trip-tunes-experience/productHunt_chart.png" 
        alt="Line chart showing a few days around 20 downloads" 
-       class="chart-image">
+       class="chart-image"
+       style="width: 600px;">
 </a>
 <em>Figure 4: Product Hunt launch drove about 50 downloads over a few days, with consistent engagement afterward.</em>
 

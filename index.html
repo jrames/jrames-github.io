@@ -1,1 +1,19 @@
-Hello World
+---
+layout: default
+title: "Jeff Rames' Blog"
+---
+
+# Welcome to My Blog
+
+This is where I share technical insights, app development lessons, and personal projects.
+
+## 📚 Blog Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>({{ post.date | date: "%B %d, %Y" }})</small>
+    </li>
+  {% endfor %}
+</ul>
