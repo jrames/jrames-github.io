@@ -142,17 +142,3 @@ I suspect the bit of success I’ve had is a mixture of a well executed app idea
 Trip Tunes was much more successful than I had envisioned. At the same time, the relatively low download and IAP numbers made me wonder if I missed an opportunity to capitalize on all that exposure. But I think this speaks to the type of app it is—niche by design. Getting it in front of the masses wasn’t the answer, and since financial success wasn’t my goal, I never felt the pull to dive deep into pricing strategies or targeted marketing.
 
 The experience has left me feeling more positive about the possibilities for success as an indie developer. It’s also given me the confidence to self promote, even if it’s something small. Here’s hoping I have as much fun with the next one\!
-
-**indiedevsales**
-
-5/4 Presskit  
-5/21 Emails to AppAdvice, 148Apps  
-5/22 App Store Launch  
-5/28 AppAdvice  
-5/29 Product Hunt Launch  
-5/31 idownloadblog [https://www.idownloadblog.com/2024/06/01/apps-of-the-week-part-94/](https://www.idownloadblog.com/2024/06/01/apps-of-the-week-part-94/)  
-7/18 Apple Feature starts (?) on main app tab  
-Aug 5 \- I emailed Jamey. Check dates of the news stories
-
-2024-12-26 \- 2025-01-02 \- indiedevapps  
-11/23 \- 12/2 \- indiedevapps
