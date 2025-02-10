@@ -137,26 +137,32 @@ footer {
   color: #007acc;  /* Subtle color shift on hover */
 }
 
-/* Default (Light Mode) Styles */
-body {
-  background-color: white;
-  color: black;
-}
-
-/* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0;            /* Light text */
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  main {
+    background-color: #1e1e1e; /* Dark background for content */
+    color: #e0e0e0;            /* Ensure text is light */
   }
 
   a {
-    color: #80cbc4;            /* Softer link color for dark mode */
+    color: #80cbc4;
   }
 
-  /* Adjust other elements as needed */
   header, footer, nav {
     background-color: #1e1e1e;
     border-color: #333;
   }
+
+  .site-title {
+    color: #ffffff; /* Brighter title in dark mode */
+  }
+
+  .post-title {
+    color: #ffffff; /* Keep post titles readable */
+  }
+
 }
