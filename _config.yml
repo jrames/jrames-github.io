@@ -4,6 +4,8 @@ description: >-
   Technical insights on iOS development, automation, and personal projects.
   Follow along as I share my experiences building apps and solving tech challenges.
 baseurl: "" # Leave empty since you're hosting at the root domain
+mastodon_username: "@jefframes@mastodon.social"
+bluesky_username: "jefframes.bsky.social"
 url: "https://jefframes.com"
 
 # Build settings
