@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Trip Tunes Feature Experience"
+title: "Indie App Promotion: How I Got My Niche App on the News"
 date: 2025-02-10
 tags: [Trip Tunes, iOS Development, App Marketing]
+excerpt: "Discover how I navigated the App Store, secured a feature from Apple, and learned key lessons about indie app marketing."
 ---
+
 Last year, I released my first indie app in over a decade. It was my first real dive into the business side of the App Store in years, so I treated it as an experiment. That experiment led to some surprises—and a few lessons worth sharing.
 
 A few strategic moves turned into an Apple feature, news segments, and thousands of downloads. What surprised me the most was the limited direct impact of the App Store feature. What really moved the needle were the downstream effects—most notably, the news coverage it helped spark.

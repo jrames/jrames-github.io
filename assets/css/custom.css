@@ -137,6 +137,64 @@ footer {
   color: #007acc;  /* Subtle color shift on hover */
 }
 
+/* Social Media Buttons */
+.social-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-buttons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 8px;
+  background-color: #333;     /* Default background for unsupported platforms */
+  color: white;               /* Default icon color */
+  border-radius: 8px;         /* Rounded corners instead of circles */
+  text-align: center;
+  line-height: 40px;          /* Vertically center the icon */
+  font-size: 20px;            /* Icon size */
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+
+/* Hover Effect */
+.social-buttons a:hover {
+  transform: scale(1.1);
+}
+
+/* Platform-Specific Background Colors */
+.mastodon {
+  background-color: #6364FF;  /* Mastodon blue */
+}
+
+.mastodon:hover {
+  background-color: #4a4cc7;
+}
+
+.bluesky {
+  background-color: #0077FF;  /* Bluesky blue */
+}
+
+.bluesky:hover {
+  background-color: #005fcc;
+}
+
+.linkedin {
+  background-color: #0077B5;  /* LinkedIn blue */
+}
+
+.linkedin:hover {
+  background-color: #005983;  /* Slightly darker on hover */
+}
+
+/* Icon Styling */
+.social-buttons i {
+  vertical-align: middle;     /* Align icon properly */
+  font-size: 24px;            /* Icon size */
+  color: white;               /* Icon color for contrast */
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
@@ -157,6 +215,21 @@ footer {
     border-color: #333;
   }
 
+  footer a {
+  text-decoration: none; /* Removes the green underline */
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+  }
+
+  footer a:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  footer svg {
+    vertical-align: middle; /* Aligns icons properly */
+  }
+
   .site-title {
     color: #ffffff; /* Brighter title in dark mode */
   }
@@ -164,5 +237,97 @@ footer {
   .post-title {
     color: #ffffff; /* Keep post titles readable */
   }
+  
+  . {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-preview {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-preview h2 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .post-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+  }
+  
+  .post-excerpt {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 8px;
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }  
 
+  .post-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .post-preview {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .post-thumbnail {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  .post-preview h2 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .post-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+  }
+  
+  .post-excerpt {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 8px;
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
 }

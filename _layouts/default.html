@@ -12,28 +12,29 @@
   {{ content }}
   </main>
 
-  <footer>
+<footer>
   <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
 
-  <p>
+  <div class="social-buttons">
     {% if site.mastodon_username %}
-      <a href="https://{{ site.mastodon_username | split: "@" | last }}" target="_blank" aria-label="Mastodon">
-        <svg role="img" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6364FF">
-          <title>Mastodon</title>
-          <path d="M21.43 11.08c-.5 2.5-4.32 2.64-4.32 2.64h-2.2V8.48h2.19s2.3.02 2.3 1.9c0 1.68-1.53 1.75-1.53 1.75.84.05 1.61-.33 1.87-1.24.14-.5.23-1.43.23-2.63 0-3.52-2.7-4.33-5.25-4.33H7.77c-2.55 0-5.25.8-5.25 4.33v3.5c0 3.64 2.97 4.5 5.25 4.5h2.45v2.56h2.48V17.5h2.45s4.43-.12 4.94-4.27c.14-1.29.17-4.23.17-4.23h-2.26s-.02 3.03-.17 4.23z"/>
-        </svg>
+      <a href="https://{{ site.mastodon_username | split: '@' | last }}/@{{ site.mastodon_username | split: '@' | slice: 1, 1 }}" class="mastodon" target="_blank" aria-label="Mastodon">
+        <i class="fab fa-mastodon"></i>
       </a>
     {% endif %}
 
     {% if site.bluesky_username %}
-      <a href="https://bsky.app/profile/{{ site.bluesky_username }}" target="_blank" aria-label="Bluesky">
-        <svg role="img" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077FF">
-          <title>Bluesky</title>
-          <path d="M12 2c2.21 0 4 1.79 4 4v1.17c.84.42 1.5 1.09 1.93 1.93H20c1.1 0 2 .9 2 2v2c0 1.1-.9 2-2 2h-2.07c-.43.84-1.09 1.5-1.93 1.93V18c0 2.21-1.79 4-4 4s-4-1.79-4-4v-1.17c-.84-.42-1.5-1.09-1.93-1.93H4c-1.1 0-2-.9-2-2v-2c0-1.1.9-2 2-2h2.07c.43-.84 1.09-1.5 1.93-1.93V6c0-2.21 1.79-4 4-4z"/>
-        </svg>
+      <a href="https://bsky.app/profile/{{ site.bluesky_username }}" class="bluesky" target="_blank" aria-label="Bluesky">
+        <i class="fa-brands fa-bluesky"></i>
       </a>
     {% endif %}
-  </p>
+
+    {% if site.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="linkedin" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    {% endif %}
+    
+  </div>
 </footer>
 </body>
 </html>
