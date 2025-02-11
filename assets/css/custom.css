@@ -53,9 +53,8 @@ img {
   margin: 20px auto;       /* Adds spacing above/below images */
 }
 
-/* Image captions */
-img + em,          /* For images without links */
-a + em {           /* For images wrapped in links */
+/* Caption Styling */
+a:has(img) + em {
   display: block;
   text-align: center;
   font-style: italic;
