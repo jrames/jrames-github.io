@@ -30,8 +30,8 @@ In the early days of LLMs, I asked ChatGPT for road trip playlist recommendation
 I decided to address the slow generation process by making an interesting loading screen. That’s when I settled on a skeuomorphic look and embraced an 80s mixtape vibe. This was the inflection point, and after that I was pretty excited about building something people might actually want to use.
 
 <div class="video-wrapper">
-  <video width="600" controls poster="../assets/images/trip-tunes-preview.png">
-    <source src="../assets/images/trip-tunes-loading.mp4" type="video/mp4">
+  <video width="600" controls poster="../images/2025-02-10-trip-tunes-experience/trip-tunes-preview.png">
+    <source src="../images/2025-02-10-trip-tunes-experience/trip-tunes-loading.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -52,7 +52,7 @@ Finding the right sites to contact was harder than I expected. The big-name tech
 
 This yielded my first success \- AppAdvice [ran a review of Trip Tunes](https://appadvice.com/post/trip-tunes-uses-ai-to-help-you-make-the-perfect-playlist-for-a-summer-roadtrip/779964) for a week on their featured banner. It’s challenging to gauge the impact because just a few days later, other factors—like the iDownloadBlog feature—started influencing downloads. But here you can see me surging from **0-1** daily downloads to **26** the day the article launched. I’d guestimate it resulted in **50-75** downloads that week. This is when I put down the deposit on my yacht (free downloads are currency, right?).
 
-<a href="../assets/images/2025-02-10-trip-tunes-experience/addadvice_chart.png" target="_blank">
+<a href="../images/2025-02-10-trip-tunes-experience/addadvice_chart.png" target="_blank">
   <img src="../assets/images/2025-02-10-trip-tunes-experience/addadvice_chart.png" 
        alt="Line chart showing download spike of 29 downloads" 
        class="chart-image">
