@@ -6,9 +6,11 @@ tags: [Trip Tunes, iOS Development, App Marketing]
 excerpt: "Discover how I navigated the App Store, secured a feature from Apple, and learned key lessons about indie app marketing."
 ---
 
-Last year, I released my first indie app in over a decade. It was my first real dive into the business side of the App Store in years, so I treated it as an experiment. That experiment led to some surprises—and a few lessons worth sharing.
+Last year, I released my first indie app in over a decade. It was my first real dive into the business side of the App Store in years, so I treated it as an experiment. That experiment led to some surprises and a few lessons worth sharing.
 
-A few strategic moves turned into an Apple feature, news segments, and thousands of downloads. What surprised me the most was the limited direct impact of the App Store feature. What really moved the needle were the downstream effects—most notably, the news coverage it helped spark.
+I built [Trip Tunes](https://apps.apple.com/us/app/trip-tunes-roadtrip-playlists/id6467522749), an app designed to quickly generate Apple Music playlists for road trips with an 80s-inspired mixtape aesthetic. It started as a fun side project, but as I experimented with promotion and outreach, it led to an App Store feature, news segments, and thousands of downloads.
+
+What surprised me the most was the limited direct impact of the App Store feature. What really moved the needle were the downstream effects—most notably, the news coverage it helped spark.
 
 <a href="../assets/images/2025-02-10-trip-tunes-experience/download_history.png" target="_blank">
   <img src="../assets/images/2025-02-10-trip-tunes-experience/download_history.png" 
@@ -23,7 +25,8 @@ This post isn’t a guide for building a million-dollar app (or even a hundred-d
 
 Around the end of 2023, I decided it was time to break the cycle of abandoned projects. The smartest thing I did was set realistic expectations and focus on a simpler idea. I had to let go of the notion that my first indie app in years needed to be perfect or overly ambitious. In fact, I decided to go for something as trivial as possible (without being a fart app).
 
-In the early days of LLMs, I asked ChatGPT for road trip playlist recommendations. It did a decent job, but adding songs to Apple Music was painfully slow. That’s when I built a quick prototype to streamline the process. It worked—but it was sluggish and utilitarian.  
+In the early days of LLMs, I asked ChatGPT for road trip playlist recommendations. It did a decent job, but adding songs to Apple Music was painfully slow. That’s when I built a quick prototype to streamline the process. It worked—but it was sluggish and utilitarian.
+
 I decided to address the slow generation process by making an interesting loading screen. That’s when I settled on a skeuomorphic look and embraced an 80s mixtape vibe. This was the inflection point, and after that I was pretty excited about building something people might actually want to use.
 
 In early 2024, I got to a point where I was pretty proud of what I’d built. I’d cobbled together something that looked really neat and did something fun and useful. I knew launching a niche app wouldn’t lead to overnight success. But instead of treating it as a side project that faded into obscurity, I decided to use it as a chance to explore the business side of the App Store.
@@ -34,7 +37,7 @@ Any time I’d talk about this fairly small hobby app, I made sure to preface it
 
 ## Press Outreach: Small Effort, Nice Payoff
 
-Just as I was releasing Trip Tunes, I decided to email authors at app review sites. It cost me nothing, and I was interested to learn how that type of press turned the needle in 2024\.
+Just as I was releasing [Trip Tunes](https://apps.apple.com/us/app/trip-tunes-roadtrip-playlists/id6467522749), I decided to email authors at app review sites. It cost me nothing, and I was interested to learn how that type of press turned the needle in 2024.
 
 If you’re going to reach out to press, Press Kits are table stakes–they provide all of the info someone needs to write an article. I ended up using [ImpressKit](https://impresskit.net/triptunes) because it provided hosting, templates and even contact info for relevant press \- and I wanted to spend minimal time on this piece.
 
@@ -113,7 +116,7 @@ Like with Product Hunt, the real value of the App Store feature wasn’t just in
 
 ## News Coverage
 
-On August 2, 2024, I noticed a sudden, massive spike in users. I spent the afternoon scouring the web, trying to figure out where it came from—nothing. Late that evening, I checked again, and to my utter shock, I discovered a news station in Nevada had run an [“App of the Day” segment](https://www.2news.com/video/what-the-tech-trip-tunes/video_344cc58d-3ec2-5567-a3fe-76349718b504.html) about Trip Tunes. Seeing my app featured on a news site was surreal.
+On August 2, 2024, I noticed a sudden, massive spike in users. I spent the afternoon scouring the web, trying to figure out where it came from—nothing. Late that evening, I checked again, and to my utter shock, I discovered a news station in Nevada had run an [“App of the Day” segment](https://www.2news.com/video/what-the-tech-trip-tunes/video_344cc58d-3ec2-5567-a3fe-76349718b504.html) about Trip Tunes. Seeing my app featured on broadcast news was surreal.
 
 <a href="../assets/images/2025-02-10-trip-tunes-experience/broadcast_news_chart.png" target="_blank">
   <img src="../assets/images/2025-02-10-trip-tunes-experience/broadcast_news_chart.png" 
@@ -126,7 +129,8 @@ The segment was done by an affiliate broadcaster, who partners with news station
 
 This would happen a couple more times, to a lesser degree. That same broadcaster produced an [‘App of the Year’](https://www.wrdw.com/2024/12/26/what-tech-app-year-trip-tunes/) segment with an updated version of the story about Trip Tunes, a [Thanksgiving Roadtrips segment](https://www.local3news.com/local-news/what-the-tech-tech-ideas-for-thanksgiving-road-trips/article_997ff216-a911-11ef-83a0-fb79fe68878a.html), and another ‘App of the Day’ appeared in early 2025\. None of these were aired on as many affiliates as the first iteration.
 
-I also ran an IAP sale during the Thanksgiving segment (Black Friday) and the ‘App of the Year’ story. In both cases, I added my sale to [IndieDevSales](https://www.indieappsales.com). This likely had some impact on the downloads during that time, but not significant. However, it seemed to increase my conversion rate. It’s always been quite low though, so I don’t have statistically significant data to draw conclusions with.  
+I also ran an IAP sale during the Thanksgiving segment (Black Friday) and the ‘App of the Year’ story. In both cases, I added my sale to [IndieDevSales](https://www.indieappsales.com). This likely had some impact on the downloads during that time, but not significant. However, it seemed to increase my conversion rate. It’s always been quite low though, so I don’t have statistically significant data to draw  with.
+
 I reached out to the reporter that created the segment to thank him for recognizing the app and I had a bit of a discussion. I learned that he discovered it flipping through the App Store \- almost certainly thanks to that prominent feature. He’s a big music fan, and loved the 80s aesthetic. 
 
 So while there was a major component of ‘luck’ involved, it was really a combination of factors: the care I put into the design and the simple fact that I submitted the feature request in the first place. Without that, the reporter might never have discovered it.
