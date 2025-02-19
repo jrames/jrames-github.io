@@ -29,6 +29,13 @@ In the early days of LLMs, I asked ChatGPT for road trip playlist recommendation
 
 I decided to address the slow generation process by making an interesting loading screen. That’s when I settled on a skeuomorphic look and embraced an 80s mixtape vibe. This was the inflection point, and after that I was pretty excited about building something people might actually want to use.
 
+<div class="video-wrapper">
+  <video width="600" controls poster="../assets/images/trip-tunes-preview.png">
+    <source src="../assets/images/trip-tunes-loading.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 In early 2024, I got to a point where I was pretty proud of what I’d built. I’d cobbled together something that looked really neat and did something fun and useful. I knew launching a niche app wouldn’t lead to overnight success. But instead of treating it as a side project that faded into obscurity, I decided to use it as a chance to explore the business side of the App Store.
 
 I reached out to Malin Sundberg, one half of everyone’s favorite indie dev team to ask if she’d be willing to offer advice. Malin and her partner Kai Dombrowski were kind enough to jump on a call with me.
