@@ -194,6 +194,14 @@ footer {
   color: white;               /* Icon color for contrast */
 }
 
+.video-right {
+  float: right;         /* Moves video to the right of text */
+  margin-left: 20px;    /* Adds spacing so text doesn't touch */
+  margin-bottom: 10px;  /* Ensures spacing below */
+  width: 300px;         /* Adjust width as needed */
+  border-radius: 8px;   /* Optional: Rounded corners */
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
