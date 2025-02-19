@@ -30,7 +30,7 @@ In the early days of LLMs, I asked ChatGPT for road trip playlist recommendation
 I decided to address the slow generation process by making an interesting loading screen. That’s when I settled on a skeuomorphic look and embraced an 80s mixtape vibe. This was the inflection point, and after that I was pretty excited about building something people might actually want to use.
 
 <div class="video-wrapper">
-  <video width="600" controls poster="../images/2025-02-10-trip-tunes-experience/trip-tunes-preview.png">
+  <video width="600" controls poster="../images/2025-02-10-trip-tunes-experience/trip-tunes-preview.jpeg">
     <source src="../images/2025-02-10-trip-tunes-experience/trip-tunes-loading.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
