@@ -194,15 +194,12 @@ footer {
   color: white;               /* Icon color for contrast */
 }
 
-.video-wrapper {
-  text-align: center;  /* Centers the video */
-  margin: 20px 0;      /* Adds spacing above/below */
-}
-
-video {
-  max-width: 100%;     /* Makes sure it scales on small screens */
-  height: auto;
-  border-radius: 8px;  /* Optional: Rounded corners */
+.video-right {
+  float: right;         /* Moves video to the right */
+  margin-left: 20px;    /* Adds spacing so text doesn’t touch it */
+  margin-bottom: 10px;  /* Adds spacing below */
+  width: 300px;         /* Adjust width to fit well */
+  border-radius: 8px;   /* Optional: rounded corners */
 }
 
 @media (prefers-color-scheme: dark) {
