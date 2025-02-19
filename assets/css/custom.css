@@ -194,15 +194,15 @@ footer {
   color: white;               /* Icon color for contrast */
 }
 
-.video-container {
-  display: flex;
-  align-items: center;  /* Aligns text & video neatly */
-  gap: 20px;            /* Adds space between them */
+.video-wrapper {
+  text-align: center;  /* Centers the video */
+  margin: 20px 0;      /* Adds spacing above/below */
 }
 
-.video-inline {
-  width: 300px;         /* Keeps video at a reasonable size */
-  border-radius: 8px;   /* Matches other media styling */
+video {
+  max-width: 100%;     /* Makes sure it scales on small screens */
+  height: auto;
+  border-radius: 8px;  /* Optional: Rounded corners */
 }
 
 @media (prefers-color-scheme: dark) {
